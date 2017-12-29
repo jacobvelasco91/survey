@@ -1,7 +1,7 @@
 <?php
 $title = "home";
-include_once "./includes/head.php";
 include_once "./includes/loginS.php";
+include_once "./includes/head.php";
  ?><?php //javascript regX ?>
 <div class="login-container">
   <form class="login-form"name="login" action="./index.php" method="post" onsubmit="return validate()">

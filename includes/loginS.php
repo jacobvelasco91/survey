@@ -2,6 +2,7 @@
 include_once "./includes/connect.php";
 $loginerror = "";                           //set loginerror to an empty html tag element
 if ($_SERVER['REQUEST_METHOD'] == "POST") { //check if there is a request made to the server | if yes, enter statement
+    session_start();
     $email = $_POST['email'];
     $pass = $_POST['password'];
     $query = "SELECT * FROM s_accounts WHERE email='$email'"; //Create a query to retreive data to match
