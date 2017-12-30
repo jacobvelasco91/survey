@@ -1,7 +1,7 @@
 <?php
 $title = "Sign up";
-include_once "./includes/head.php";
 include_once "./includes/signup.php";
+include_once "./includes/head.php";
 ?><!-- signup section -->
   <div class="signup-container2">
     <form class="signup-form" style="padding:20px;" action="signup_page.php" method="post">
